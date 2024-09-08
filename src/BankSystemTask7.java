@@ -10,8 +10,8 @@ public class BankSystemTask7 {
             final Bank bank1 = new Bank("Bank A", "USD");
             final Bank bank2 = new Bank("Bank B", "EUR");
 
-            final User user1 = new User("John Doe");
-            final User user2 = new User("Jane Smith");
+            final User user1 = new User("Zakhar Nazarko");
+            final User user2 = new User("Katya Losova");
 
             final BankAccount account1 = bank1.createAccount(user1, 1000);
             final BankAccount account2 = bank1.createAccount(user1, 500);
