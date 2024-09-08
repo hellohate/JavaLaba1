@@ -67,7 +67,7 @@ record Bank(String name, String currency) {
         return new BankAccount(user, this, initialBalance);
     }
 
-    // Метод для отримання курсу обміну
+
     public static double getExchangeRate(String fromCurrency, String toCurrency) {
         if (fromCurrency.equals(toCurrency)) {
             return 1.0;
